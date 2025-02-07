@@ -11,7 +11,7 @@
 - Vive Pro Eyeのセンサーを用いたサンプルモジュール
 - オープンソースとして公開し、研究者・開発者間でのモジュール共有を支援
 
-本フレームワークはHTC Vive Pro Eyeを使用し、Unity上で動作します。詳細は[マニュアル](docs/manual.pdf)をご参照ください。
+本フレームワークはHTC Vive Pro Eyeを使用し、Unity上で動作します。詳細は[マニュアル](manual.pdf)をご参照ください。
 
 ## 動作確認
 
@@ -28,3 +28,18 @@
 1. このリポジトリをクローンします：
    ```bash
    git clone https://github.com/chanpuru7777/Biofeedback-Framework.git
+
+
+Biofeedback-Framework/ 
+├── README.md # プロジェクトの説明（このファイル） 
+├── manual.pdf # フレームワークの詳細なマニュアル 
+├── src/ # ソースコード 
+│ ├── modules/ # 各種モジュール 
+│ │ ├── A_EyeOpennessInput.cs 
+│ │ ├── B_BlinkAwareness.cs 
+│ │ ├── C_LightingFeedback.cs 
+│ ├── main.unity # Unityのメインシーン 
+├── test/ # 動作テスト関連 
+│ ├── test_data/ # テスト用データ 
+│ ├── test_scripts/ # Pythonによる動作検証スクリプト 
+
