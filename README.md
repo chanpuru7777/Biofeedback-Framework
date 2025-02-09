@@ -43,3 +43,9 @@ Biofeedback-Framework/
 │ ├── test_data/ # テスト用データ 
 │ ├── test_scripts/ # Pythonによる動作検証スクリプト 
 
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
